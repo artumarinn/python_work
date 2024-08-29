@@ -21,3 +21,27 @@ print(popped_bicycles)
 bicycles.remove('specialiced') # eliminar un elemento de la lista si no se sabe la el valor 
 print(bicycles)
 
+# Ordenas lista
+cars = ['bmw', 'toyota', 'audi', 'subaru']
+cars.sort() # orden alfabetico
+print(cars)
+
+cars.sort(reverse=True) # orden alfabetico inverso
+print(cars)
+
+cars2 = ['chevrolet', 'honda', 'ford', 'subaru']
+
+print("\nHere is the original list:")
+print(cars2)
+
+print("\nHere is the original list:") # ordenar la lista temporalmente
+print(sorted(cars2))
+
+print("\nHere is the original list:")
+print(cars2)
+
+# invertir el orden
+cars2.reverse()
+print(cars2)
+
+print(len(cars2)) # longitud de la lista
