@@ -9,5 +9,5 @@ print(favorite_lenguaje)
 
 # eliminar prefijos 
 
-nostarch = 'nostarch.com'
-nostarch.url.removeprefix('https://')
+#nostarch = 'nostarch.com'
+#nostarch.url.removeprefix('https://')
