@@ -22,3 +22,4 @@ print(numbers05)
 
 numbers06 = [value ** 3 for value in range(1, 11)]
 print(numbers06)
+
