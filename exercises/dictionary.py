@@ -1,9 +1,9 @@
-person = { 'first_name': 'arturo', 'last_name': 'marin', 'age': 21, 'city': 'Lujan de Cuyo',}
+person = {
+    'name' : 'arturo', 
+    'age': '21', 
+    'city': 'mendoza'
+    }
 
-print(person)
+for key, value in person.items():
+    print(f"{key}: {value.title()}")
 
-glosario = {'cucumber': 'es un lenguaje de Dominio', 'streamlit': 'sirve para crear webs', 'etc': 'mas facil de cambiar'}
-
-print(f"Cucumber: {glosario['cucumber']}")
-print(f"streamlit: {glosario['streamlit']}")
-print(f"etc: {glosario['etc']}")
