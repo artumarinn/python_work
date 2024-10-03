@@ -27,6 +27,25 @@ while pedidos_bocadillos:
 
 # Vacaciones de ensueño
 
+respuestas = {}
+
+respuesta = True
+
+while respuesta:
+    nombre = input("\n\nCual es su nombre?: ")
+    vacaciones = input("Si pudieras visitar cualquier parte del mundo, donde irias?: ")
+
+    respuestas[nombre] = vacaciones
+
+    repetir = input("Alguien mas quisiera responder? (yes / no)")
+
+    if repetir == 'no':
+        respuesta = False
+
+print("\n\n-----------------Respuestas-----------------\n")
+for nombre, vacaciones in respuestas.items():
+    print(f"{nombre.title()} iria de vacaciones a {vacaciones.title()} ")
+
 
 
 
